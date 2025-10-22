@@ -1,0 +1,6 @@
+﻿User-agent: *
+Allow: /
+Disallow: /go/
+Sitemap: https://fanqianghou.asia/sitemap.xml
+
+
