@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>博客文章 - 翻墙后看什么</title>
+  <meta name="description" content="翻墙后看什么：博客文章列表。记录上手指南、专题与运营笔记。" />
+  <link rel="shortcut icon" href="../assets/images/favicon.png">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+  <link rel="stylesheet" href="../assets/css/fonts/linecons/css/linecons.css">
+  <link rel="stylesheet" href="../assets/css/fonts/fontawesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+  <link rel="stylesheet" href="../assets/css/xenon-core.css">
+  <link rel="stylesheet" href="../assets/css/xenon-components.css">
+  <link rel="stylesheet" href="../assets/css/xenon-skins.css">
+  <link rel="stylesheet" href="../assets/css/nav.css">
+  <script src="../assets/js/jquery-1.11.1.min.js"></script>
+  <script src="../assets/js/lozad.js"></script>
+</head>
+<body class="page-body">
+  <div class="page-container">
+    <div class="sidebar-menu toggle-others fixed">
+      <div class="sidebar-menu-inner">
+        <header class="logo-env">
+          <div class="logo">
+            <a href="index.html" class="logo-expanded"><img src="../assets/images/fanqianghou-logo.svg" width="100%" alt="翻墙后看什么"/></a>
+            <a href="index.html" class="logo-collapsed"><img src="../assets/images/fanqianghou-icon.svg" width="40" alt="logo"/></a>
+          </div>
+          <div class="mobile-menu-toggle visible-xs">
+            <a href="#" data-toggle="mobile-menu"><i class="fa-bars"></i></a>
+          </div>
+        </header>
+        <ul id="main-menu" class="main-menu">
+          <li class="active">
+            <a href="blog.html"><i class="linecons-doc"></i><span class="title">博客文章</span></a>
+          </li>
+          <li><a href="index.html#资讯与媒体" class="smooth"><i class="linecons-doc"></i><span class="title">资讯与媒体</span></a></li>
+          <li><a href="index.html#学习与课程" class="smooth"><i class="linecons-graduation-cap"></i><span class="title">学习与课程</span></a></li>
+          <li><a href="index.html#视频与频道" class="smooth"><i class="linecons-video"></i><span class="title">视频与频道</span></a></li>
+          <li><a href="index.html#社区与讨论" class="smooth"><i class="linecons-comment"></i><span class="title">社区与讨论</span></a></li>
+          <li><a href="index.html#工具与效率" class="smooth"><i class="linecons-cog"></i><span class="title">工具与效率</span></a></li>
+          <li><a href="index.html#订阅中心" class="smooth"><i class="linecons-mail"></i><span class="title">订阅中心</span></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-content">
+      <div class="row"><div class="col-md-12"><h2 style="margin-top:0">博客文章</h2><p>记录入门指南、精选清单与运营笔记。后续文章会持续更新。</p></div></div>
+
+      <h4 class="text-gray"><i class="linecons-pencil" style="margin-right:7px;"></i>最新文章</h4>
+      <div class="row" id="blog-list">
+        <!-- 示例文章卡片 -->
+        <div class="col-sm-12">
+          <div class="xe-widget xe-conversations box2 label-info" onclick="window.location.href='posts/hello-world.html'" data-toggle="tooltip" data-placement="bottom" title="">
+            <div class="xe-comment-entry">
+              <a class="xe-user-img">
+                <img data-src="https://www.google.com/s2/favicons?domain=fanqianghou.asia" class="lozad img-circle" width="40">
+              </a>
+              <div class="xe-comment">
+                <a class="xe-user-name overflowClip_1"><strong>站点上线与内容规划（示例）</strong></a>
+                <p class="overflowClip_2">首批 6 类 × 48 条导航上线；/go 跳转与合规、后续写作规范与更新节奏。</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <div class="row"><div class="col-md-12"><p style="color:#999">写作说明：在 <code>cn/posts/</code> 下新增 HTML 文件，并在本页添加一个卡片链接即可（我后续可改为 JSON 数据自动渲染）。</p></div></div>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('DOMContentLoaded', function(){ lozad().observe(); });
+  </script>
+</body>
+</html>
